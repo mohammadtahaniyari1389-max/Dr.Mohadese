@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "myFont";
+    src: url(../font/YekanBakhFaNum-SemiBold.woff2);
+}
+html {
+    transition: background-color 0.35s ease, color 0.35s ease;
+}
+body{
+    font-family: "myFont";
+}
+    
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #94a3b8;
+    border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb {
+    background: #475569;
+}
+  
+/* Gradient text */
+.text-gradient {
+    background: linear-gradient(135deg, #f8c4d4 0%, #d4c1ec 50%, #a8d8ea 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+   
+/* Glass effect */
+.glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+.dark .glass {
+    background: rgba(26, 34, 45, 0.75);
+}
+   
+/* Reveal on scroll */
+.reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+    
+/* Soft card hover */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+    transform: translateY(-4px);
+}
+    
+/* Theme toggle animation */
+.theme-icon {
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+    
+/* Decorative blob */
+.blob {
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+    animation: float 8s ease-in-out infinite;
+}
+   
+/* Line decoration */
+.section-line {
+    width: 48px;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #f8c4d4, #d4c1ec);
+}
+
+.anim_dl3{
+    animation-delay: -3s;
+}
+.anim_dl5{
+    animation-delay: -5s;
+}

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دکتر محدثه مهربون | متخصص مامایی و مراقبت‌های پرستاری</title>
+    <meta name="description" content="رزومه و معرفی حرفه‌ای دکتر محدثه مهربون, متخصص مامایی و پرستاری با بیش از ۱۲ سال تجربه در مراقبت‌های مادر و نوزاد" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="assets/js/t.script.js"></script>
+</head>
+<body class="bg-pastel-soft text-slate-800 dark:bg-night-900 dark:text-slate-100 antialiased selection:bg-pastel-rose/40">
+
+    <!-- Decorative background elements -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none -z-10">
+        <div class="absolute -top-32 -right-32 w-96 h-96 bg-pastel-rose/20 dark:bg-pastel-rose/10 blob blur-3xl"></div>
+        <div class="absolute top-1/3 -left-40 w-80 h-80 bg-pastel-lavender/25 dark:bg-pastel-lavender/10 blob blur-3xl anim_dl3"></div>
+        <div class="absolute bottom-20 right-1/4 w-72 h-72 bg-pastel-mint/20 dark:bg-pastel-mint/10 blob blur-3xl anim_dl5"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="fixed top-0 inset-x-0 z-50 glass border-b border-slate-200/60 dark:border-night-600/50">
+        <div class="max-w-6xl mx-auto px-5 sm:px-8">
+            <div class="flex items-center justify-between h-16 sm:h-18">
+                <!-- Logo -->
+                <a href="#home" class="flex items-center gap-2.5 group">
+                    <div class="w-9 h-9 rounded-full bg-gradient-to-br from-pastel-rose to-pastel-lavender flex items-center justify-center shadow-sm group-hover:shadow-glow transition-shadow">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                        </svg>
+                    </div>
+                    <span class="font-semibold text-[15px] tracking-tight hidden sm:block">دکتر محدثه مهربون</span>
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex items-center gap-1">
+                    <a href="#about" class="px-3.5 py-2 text-sm text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white rounded-lg hover:bg-slate-100/70 dark:hover:bg-night-700/60 transition-colors">درباره من</a>
+                    <a href="#expertise" class="px-3.5 py-2 text-sm text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white rounded-lg hover:bg-slate-100/70 dark:hover:bg-night-700/60 transition-colors">تخصص‌ها</a>
+                    <a href="#experience" class="px-3.5 py-2 text-sm text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white rounded-lg hover:bg-slate-100/70 dark:hover:bg-night-700/60 transition-colors">سوابق</a>
+                    <a href="#education" class="px-3.5 py-2 text-sm text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white rounded-lg hover:bg-slate-100/70 dark:hover:bg-night-700/60 transition-colors">تحصیلات</a>
+                    <a href="#contact" class="px-3.5 py-2 text-sm text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white rounded-lg hover:bg-slate-100/70 dark:hover:bg-night-700/60 transition-colors">تماس</a>
+                </nav>
+
+                <div class="flex items-center gap-2">
+                    <!-- Theme Toggle -->
+                    <button id="theme-toggle" aria-label="تغییر تم" class="p-2.5 rounded-xl bg-slate-100/80 dark:bg-night-700/80 hover:bg-slate-200/80 dark:hover:bg-night-600 text-slate-600 dark:text-slate-300 transition-colors">
+                        <svg id="icon-sun" class="w-5 h-5 theme-icon hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+                        </svg>
+                        <svg id="icon-moon" class="w-5 h-5 theme-icon block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+                        </svg>
+                    </button>
+
+                    <!-- Mobile menu button -->
+                    <button id="mobile-menu-btn" class="md:hidden p-2.5 rounded-xl bg-slate-100/80 dark:bg-night-700/80 text-slate-600 dark:text-slate-300">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Nav -->
+        <div id="mobile-menu" class="hidden md:hidden border-t border-slate-200/60 dark:border-night-600/50">
+            <div class="px-5 py-3 space-y-1">
+                <a href="#about" class="block px-3 py-2.5 text-sm rounded-lg hover:bg-slate-100 dark:hover:bg-night-700">درباره من</a>
+                <a href="#expertise" class="block px-3 py-2.5 text-sm rounded-lg hover:bg-slate-100 dark:hover:bg-night-700">تخصص‌ها</a>
+                <a href="#experience" class="block px-3 py-2.5 text-sm rounded-lg hover:bg-slate-100 dark:hover:bg-night-700">سوابق</a>
+                <a href="#education" class="block px-3 py-2.5 text-sm rounded-lg hover:bg-slate-100 dark:hover:bg-night-700">تحصیلات</a>
+                <a href="#contact" class="block px-3 py-2.5 text-sm rounded-lg hover:bg-slate-100 dark:hover:bg-night-700">تماس</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="relative pt-28 sm:pt-36 pb-20 sm:pb-28 overflow-hidden">
+            <div class="max-w-6xl mx-auto px-5 sm:px-8">
+                <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+          
+                    <!-- Text Content -->
+                    <div class="flex-1 text-center lg:text-right order-2 lg:order-1">
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-pastel-rose/30 dark:bg-pastel-rose/15 text-sm text-rose-700 dark:text-pastel-rose mb-6 reveal">
+                            <span class="w-1.5 h-1.5 rounded-full bg-rose-400 animate-pulse"></span>
+                                 پذیرای مراجعین جدید
+                        </div>
+            
+                        <h1 class="text-4xl sm:text-5xl lg:text-[3.4rem] font-bold leading-[1.2] tracking-tight mb-5 reveal delay-100">
+                              دکتر <span class="text-gradient">محدثه مهربون</span>
+                        </h1>
+            
+                        <p class="text-lg sm:text-xl text-slate-600 dark:text-slate-300 font-medium mb-3 reveal delay-150">
+                             متخصص مامایی و مراقبت‌های پرستاری
+                        </p>
+            
+                        <p class="text-[15px] sm:text-base text-slate-500 dark:text-slate-400 leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8 reveal delay-200">
+                             با بیش از دوازده سال تجربه در مراقبت‌های پیش از بارداری، زایمان طبیعی و مراقبت‌های ویژه مادر و نوزاد. تمرکز من بر ارائه مراقبت انسانی، علمی و شخصی‌سازی‌شده است.
+                        </p>
+            
+                        <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 reveal delay-[250ms]">
+                            <a href="#contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-l from-rose-400 to-pastel-lavender text-white font-medium shadow-soft hover:shadow-soft-lg transition-all hover:-translate-y-0.5">
+                             رزرو مشاوره
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                                </svg>
+                            </a>
+                            <a href="#about" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-slate-200 dark:border-night-600 bg-white/60 dark:bg-night-800/60 font-medium hover:bg-white dark:hover:bg-night-700 transition-colors">
+                                 بیشتر بدانید
+                            </a>
+                        </div>
+
+                        <!-- Quick stats -->
+                        <div class="flex flex-wrap justify-center lg:justify-start gap-8 mt-12 pt-8 border-t border-slate-200/70 dark:border-night-600/50 reveal" style="transition-delay: 0.3s">
+                            <div>
+                                <div class="text-2xl font-bold text-slate-800 dark:text-white">۱۲+</div>
+                                <div class="text-sm text-slate-500 dark:text-slate-400 mt-0.5">سال تجربه</div>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-bold text-slate-800 dark:text-white">۲۸۰۰+</div>
+                                <div class="text-sm text-slate-500 dark:text-slate-400 mt-0.5">زایمان موفق</div>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-bold text-slate-800 dark:text-white">۹۸٪</div>
+                                <div class="text-sm text-slate-500 dark:text-slate-400 mt-0.5">رضایت مراجعین</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portrait / Visual -->
+                    <div class="order-1 lg:order-2 relative reveal" style="transition-delay: 0.1s">
+                        <div class="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80">
+                            <!-- Outer ring -->
+                            <div class="absolute inset-0 rounded-full bg-gradient-to-br from-pastel-rose via-pastel-lavender to-pastel-sky opacity-40 dark:opacity-25 blur-sm"></div>
+                            <!-- Main circle -->
+                            <div class="absolute inset-3 rounded-full bg-gradient-to-br from-pastel-blush to-pastel-lavender dark:from-night-700 dark:to-night-600 shadow-soft-lg overflow-hidden flex items-center justify-center">
+                                <!-- Placeholder portrait with initials -->
+                                <div class="w-full h-full bg-gradient-to-br from-rose-100 to-lavender-100 dark:from-night-600 dark:to-night-700 flex items-center justify-center">
+                                    <span class="text-6xl sm:text-7xl font-light text-rose-300/80 dark:text-pastel-rose/40">ن ر</span>
+                                </div>
+                            </div>
+                            <!-- Floating badge -->
+                            <div class="absolute -bottom-2 -left-2 sm:bottom-4 sm:left-0 bg-white dark:bg-night-800 rounded-2xl shadow-soft-lg px-4 py-3 flex items-center gap-3 border border-slate-100 dark:border-night-600">
+                                <div class="w-10 h-10 rounded-full bg-pastel-mint/40 dark:bg-pastel-mint/20 flex items-center justify-center">
+                                    <svg class="w-5 h-5 text-emerald-600 dark:text-pastel-mint" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <div class="text-xs text-slate-500 dark:text-slate-400">عضو نظام پزشکی</div>
+                                    <div class="text-sm font-semibold">کد: ۱۲۳۴۵۶</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about" class="py-20 sm:py-28">
+            <div class="max-w-6xl mx-auto px-5 sm:px-8">
+                <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+                    <div class="lg:col-span-5 reveal">
+                        <div class="section-line mb-5"></div>
+                        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight mb-4">درباره من</h2>
+                        <p class="text-slate-500 dark:text-slate-400 leading-relaxed mb-6">
+                             مسیر حرفه‌ای‌ام از علاقه عمیق به مراقبت از مادران و نوزادان آغاز شد. باور دارم که هر زایمان، یک داستان منحصربه‌فرد است و نقش من، همراهی علمی و انسانی در این مسیر است.
+                        </p>
+                        <p class="text-slate-500 dark:text-slate-400 leading-relaxed">
+                             در طول سال‌ها، علاوه بر کار بالینی، در آموزش دانشجویان مامایی و برگزاری کارگاه‌های آمادگی زایمان نیز فعال بوده‌ام. رویکرد من ترکیبی از دانش روز، تجربه بالینی و گوش دادن واقعی به نیازهای هر مادر است.
+                        </p>
+                    </div>
+          
+                    <div class="lg:col-span-7 grid sm:grid-cols-2 gap-4 reveal" style="transition-delay: 0.1s">
+                        <div class="p-5 rounded-2xl bg-white/70 dark:bg-night-800/70 border border-slate-100 dark:border-night-600/50 card-hover shadow-soft">
+                            <div class="w-10 h-10 rounded-xl bg-pastel-rose/30 dark:bg-pastel-rose/15 flex items-center justify-center mb-4">
+                                <svg class="w-5 h-5 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                                </svg>
+                            </div>
+                            <h3 class="font-semibold mb-1.5">مراقبت مادرمحور</h3>
+                            <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">هر تصمیم درمانی با مشارکت کامل مادر و با توجه به ارزش‌ها و ترجیحات او گرفته می‌شود.</p>
+                        </div>
+            
+                        <div class="p-5 rounded-2xl bg-white/70 dark:bg-night-800/70 border border-slate-100 dark:border-night-600/50 card-hover shadow-soft">
+                            <div class="w-10 h-10 rounded-xl bg-pastel-mint/40 dark:bg-pastel-mint/15 flex items-center justify-center mb-4">
+                                <svg class="w-5 h-5 text-emerald-600 dark:text-pastel-mint" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                                </svg>
+                            </div>
+                            <h3 class="font-semibold mb-1.5">ایمنی و استاندارد</h3>
+                            <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">پایبندی کامل به پروتکل‌های بالینی روز و دستورالعمل‌های ملی و بین‌المللی مامایی.</p>
+                        </div>
+            
+                        <div class="p-5 rounded-2xl bg-white/70 dark:bg-night-800/70 border border-slate-100 dark:border-night-600/50 card-hover shadow-soft">
+                            <div class="w-10 h-10 rounded-xl bg-pastel-sky/40 dark:bg-pastel-sky/15 flex items-center justify-center mb-4">
+                                <svg class="w-5 h-5 text-sky-600 dark:text-pastel-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                                </svg>
+                            </div>
+                            <h3 class="font-semibold mb-1.5">آموزش مستمر</h3>
+                            <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">به‌روزرسانی مداوم دانش از طریق کنگره‌ها، کارگاه‌ها و مطالعات موردی بالینی.</p>
+                        </div>
+            
+                        <div class="p-5 rounded-2xl bg-white/70 dark:bg-night-800/70 border border-slate-100 dark:border-night-600/50 card-hover shadow-soft">
+                            <div class="w-10 h-10 rounded-xl bg-pastel-lavender/40 dark:bg-pastel-lavender/15 flex items-center justify-center mb-4">
+                                <svg class="w-5 h-5 text-violet-500 dark:text-pastel-lavender" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                </svg>
+                            </div>
+                            <h3 class="font-semibold mb-1.5">همراهی خانواده</h3>
+                            <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">حمایت از نقش پدر و خانواده در فرآیند بارداری و زایمان به عنوان بخشی طبیعی از مراقبت.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Expertise -->
+        <section id="expertise" class="py-20 sm:py-28 bg-white/40 dark:bg-night-800/30">
+            <div class="max-w-6xl mx-auto px-5 sm:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-14 reveal">
+                    <div class="section-line mx-auto mb-5"></div>
+                    <h2 class="text-3xl sm:text-4xl font-bold tracking-tight mb-4">حوزه‌های تخصصی</h2>
+                    <p class="text-slate-500 dark:text-slate-400">خدماتی که با دقت، تجربه و توجه کامل به جزئیات ارائه می‌دهم</p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                    <!-- Card 1 -->
+                    <div class="group p-6 rounded-2xl bg-white dark:bg-night-800 border border-slate-100 dark:border-night-600/50 shadow-soft card-hover reveal">
+                        <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-pastel-rose to-rose-300/80 flex items-center justify-center mb-5 shadow-sm">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">مراقبت‌های بارداری</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">پیگیری منظم بارداری، غربالگری‌ها، مدیریت عوارض شایع و آماده‌سازی مادر برای زایمان.</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="group p-6 rounded-2xl bg-white dark:bg-night-800 border border-slate-100 dark:border-night-600/50 shadow-soft card-hover reveal" style="transition-delay: 0.05s">
+                        <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-pastel-lavender to-violet-300/80 flex items-center justify-center mb-5 shadow-sm">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">زایمان طبیعی</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">همراهی در زایمان فیزیولوژیک، مدیریت درد غیر دارویی و حمایت عاطفی در تمام مراحل لیبر.</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="group p-6 rounded-2xl bg-white dark:bg-night-800 border border-slate-100 dark:border-night-600/50 shadow-soft card-hover reveal" style="transition-delay: 0.1s">
+                        <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-pastel-mint to-emerald-300/80 flex items-center justify-center mb-5 shadow-sm">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">مراقبت پس از زایمان</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">پیگیری بهبودی مادر، شیردهی، غربالگری افسردگی پس از زایمان و مراقبت از نوزاد.</p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="group p-6 rounded-2xl bg-white dark:bg-night-800 border border-slate-100 dark:border-night-600/50 shadow-soft card-hover reveal" style="transition-delay: 0.15s">
+                        <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-pastel-sky to-sky-300/80 flex items-center justify-center mb-5 shadow-sm">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">مشاوره پیش از بارداری</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">ارزیابی سلامت، مکمل‌یاری، مدیریت بیماری‌های زمینه‌ای و برنامه‌ریزی بارداری سالم.</p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="group p-6 rounded-2xl bg-white dark:bg-night-800 border border-slate-100 dark:border-night-600/50 shadow-soft card-hover reveal" style="transition-delay: 0.2s">
+                        <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-rose-300 to-pastel-blush flex items-center justify-center mb-5 shadow-sm">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">آموزش آمادگی زایمان</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">کلاس‌های گروهی و خصوصی برای زوج‌ها، تکنیک‌های تنفسی، موقعیت‌های زایمان و مراقبت نوزاد.</p>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="group p-6 rounded-2xl bg-white dark:bg-night-800 border border-slate-100 dark:border-night-600/50 shadow-soft card-hover reveal" style="transition-delay: 0.25s">
+                        <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-violet-300 to-pastel-lavender flex items-center justify-center mb-5 shadow-sm">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">مراقبت‌های ویژه</h3>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">مدیریت بارداری‌های پرخطر، دیابت بارداری، فشار خون و مراقبت‌های ویژه مادر و نوزاد.</p>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- Experience -->
+        <section id="experience" class="py-20 sm:py-28">
+            <div class="max-w-6xl mx-auto px-5 sm:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-14 reveal">
+                    <div class="section-line mx-auto mb-5"></div>
+                    <h2 class="text-3xl sm:text-4xl font-bold tracking-tight mb-4">سوابق حرفه‌ای</h2>
+                    <p class="text-slate-500 dark:text-slate-400">مسیر کاری که با دقت و تعهد ساخته شده</p>
+                </div>
+
+                <div class="relative max-w-3xl mx-auto">
+                    <!-- Timeline line -->
+                    <div class="absolute right-4 sm:right-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-pastel-rose via-pastel-lavender to-pastel-mint sm:translate-x-1/2"></div>
+
+                    <!-- Item 1 -->
+                    <div class="relative flex flex-col sm:flex-row gap-6 mb-12 reveal">
+                        <div class="sm:w-1/2 sm:text-left sm:pr-12 order-2 sm:order-1">
+                            <div class="p-5 rounded-2xl bg-white dark:bg-night-800 border border-slate-100 dark:border-night-600/50 shadow-soft">
+                                <div class="text-xs font-medium text-rose-500 dark:text-pastel-rose mb-1">۱۳۹۸ — اکنون</div>
+                                <h3 class="font-semibold text-lg mb-1">متخصص مامایی ارشد</h3>
+                                <div class="text-sm text-slate-500 dark:text-slate-400 mb-3">بیمارستان تخصصی زنان و زایمان آریا</div>
+                                <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">مسئولیت بخش زایمان و مراقبت‌های ویژه مادران پرخطر. هدایت تیم مامایی و اجرای پروتکل‌های جدید مدیریت درد.</p>
+                            </div>
+                        </div>
+                        <div class="absolute right-4 sm:right-1/2 w-3.5 h-3.5 rounded-full bg-pastel-rose border-4 border-white dark:border-night-900 sm:translate-x-1/2 -translate-y-0.5 z-10"></div>
+                        <div class="sm:w-1/2 order-1 sm:order-2"></div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="relative flex flex-col sm:flex-row gap-6 mb-12 reveal" style="transition-delay: 0.08s">
+                        <div class="sm:w-1/2 order-2 sm:order-1"></div>
+                        <div class="absolute right-4 sm:right-1/2 w-3.5 h-3.5 rounded-full bg-pastel-lavender border-4 border-white dark:border-night-900 sm:translate-x-1/2 -translate-y-0.5 z-10"></div>
+                        <div class="sm:w-1/2 sm:pl-12 order-1 sm:order-2">
+                            <div class="p-5 rounded-2xl bg-white dark:bg-night-800 border border-slate-100 dark:border-night-600/50 shadow-soft">
+                                <div class="text-xs font-medium text-violet-500 dark:text-pastel-lavender mb-1">۱۳۹۴ — ۱۳۹۸</div>
+                                <h3 class="font-semibold text-lg mb-1">مامای مسئول بخش</h3>
+                                <div class="text-sm text-slate-500 dark:text-slate-400 mb-3">مرکز درمانی مادر و کودک مهر</div>
+                                <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">مدیریت روزانه بخش، آموزش دانشجویان و راه‌اندازی کلینیک مشاوره شیردهی.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="relative flex flex-col sm:flex-row gap-6 reveal" style="transition-delay: 0.16s">
+                        <div class="sm:w-1/2 sm:text-left sm:pr-12 order-2 sm:order-1">
+                            <div class="p-5 rounded-2xl bg-white dark:bg-night-800 border border-slate-100 dark:border-night-600/50 shadow-soft">
+                                <div class="text-xs font-medium text-emerald-600 dark:text-pastel-mint mb-1">۱۳۹۱ — ۱۳۹۴</div>
+                                <h3 class="font-semibold text-lg mb-1">ماما و پرستار بالینی</h3>
+                                <div class="text-sm text-slate-500 dark:text-slate-400 mb-3">بیمارستان عمومی امام رضا</div>
+                                <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">شروع مسیر حرفه‌ای در بخش‌های زنان، زایمان و مراقبت‌های ویژه نوزادان.</p>
+                            </div>
+                        </div>
+                        <div class="absolute right-4 sm:right-1/2 w-3.5 h-3.5 rounded-full bg-pastel-mint border-4 border-white dark:border-night-900 sm:translate-x-1/2 -translate-y-0.5 z-10"></div>
+                        <div class="sm:w-1/2 order-1 sm:order-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- Education -->
+        <section id="education" class="py-20 sm:py-28 bg-white/40 dark:bg-night-800/30">
+            <div class="max-w-6xl mx-auto px-5 sm:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 lg:gap-20">
+                    <!-- Education -->
+                    <div class="reveal">
+                        <div class="section-line mb-5"></div>
+                        <h2 class="text-3xl font-bold tracking-tight mb-8">تحصیلات</h2>
+            
+                        <div class="space-y-6">
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-pastel-rose/30 dark:bg-pastel-rose/15 flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M12 14l9-5-9-5-9 5 9 5z"/>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold">دکترای حرفه‌ای مامایی</h3>
+                                    <p class="text-sm text-slate-500 dark:text-slate-400 mt-0.5">دانشگاه علوم پزشکی تهران — ۱۳۹۱</p>
+                                </div>
+                            </div>
+              
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-pastel-lavender/30 dark:bg-pastel-lavender/15 flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M12 14l9-5-9-5-9 5 9 5z"/>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold">کارشناسی ارشد پرستاری مراقبت‌های ویژه</h3>
+                                    <p class="text-sm text-slate-500 dark:text-slate-400 mt-0.5">دانشگاه علوم پزشکی شهید بهشتی — ۱۳۹۴</p>
+                                </div>
+                            </div>
+              
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-pastel-mint/40 dark:bg-pastel-mint/15 flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-emerald-600 dark:text-pastel-mint" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold">گواهینامه مدیریت درد زایمان</h3>
+                                    <p class="text-sm text-slate-500 dark:text-slate-400 mt-0.5">انجمن مامایی ایران — ۱۳۹۶</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills / Certifications -->
+                    <div class="reveal" style="transition-delay: 0.1s">
+                        <div class="section-line mb-5"></div>
+                        <h2 class="text-3xl font-bold tracking-tight mb-8">مهارت‌ها و گواهینامه‌ها</h2>
+            
+                        <div class="flex flex-wrap gap-2.5 mb-8">
+                            <span class="px-3.5 py-1.5 rounded-full text-sm bg-pastel-rose/25 dark:bg-pastel-rose/15 text-rose-700 dark:text-pastel-rose">زایمان فیزیولوژیک</span>
+                            <span class="px-3.5 py-1.5 rounded-full text-sm bg-pastel-lavender/30 dark:bg-pastel-lavender/15 text-violet-700 dark:text-pastel-lavender">مراقبت‌های ویژه نوزاد</span>
+                            <span class="px-3.5 py-1.5 rounded-full text-sm bg-pastel-mint/40 dark:bg-pastel-mint/15 text-emerald-700 dark:text-pastel-mint">شیردهی و لاکتیشن</span>
+                            <span class="px-3.5 py-1.5 rounded-full text-sm bg-pastel-sky/40 dark:bg-pastel-sky/15 text-sky-700 dark:text-pastel-sky">سونوگرافی پایه مامایی</span>
+                            <span class="px-3.5 py-1.5 rounded-full text-sm bg-rose-100/80 dark:bg-rose-900/30 text-rose-700 dark:text-rose-300">مدیریت اورژانس‌های زنان</span>
+                            <span class="px-3.5 py-1.5 rounded-full text-sm bg-violet-100/80 dark:bg-violet-900/30 text-violet-700 dark:text-violet-300">آموزش والدین</span>
+                            <span class="px-3.5 py-1.5 rounded-full text-sm bg-emerald-100/80 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300">BLS / ACLS</span>
+                            <span class="px-3.5 py-1.5 rounded-full text-sm bg-sky-100/80 dark:bg-sky-900/30 text-sky-700 dark:text-sky-300">مشاوره باروری</span>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-gradient-to-br from-pastel-rose/20 via-pastel-lavender/15 to-pastel-mint/20 dark:from-pastel-rose/10 dark:via-pastel-lavender/10 dark:to-pastel-mint/10 border border-slate-100/80 dark:border-night-600/40">
+                            <h3 class="font-semibold mb-3">عضویت‌های حرفه‌ای</h3>
+                                <ul class="space-y-2 text-sm text-slate-600 dark:text-slate-300">
+                                    <li class="flex items-center gap-2">
+                                        <span class="w-1.5 h-1.5 rounded-full bg-rose-400"></span>
+                                         انجمن علمی مامایی ایران
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="w-1.5 h-1.5 rounded-full bg-violet-400"></span>
+                                             سازمان نظام پزشکی جمهوری اسلامی ایران
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                                             انجمن بین‌المللی ماماها (ICM) — عضو وابسته
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact" class="py-20 sm:py-28">
+            <div class="max-w-6xl mx-auto px-5 sm:px-8">
+                <div class="grid lg:grid-cols-5 gap-12 lg:gap-16">
+                    <div class="lg:col-span-2 reveal">
+                        <div class="section-line mb-5"></div>
+                        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight mb-4">در تماس باشید</h2>
+                        <p class="text-slate-500 dark:text-slate-400 leading-relaxed mb-8">
+                             برای رزرو وقت مشاوره، پرسش درباره خدمات یا هماهنگی کلاس‌های آمادگی زایمان، از فرم کنار یا راه‌های زیر استفاده کنید.
+                        </p>
+            
+                        <div class="space-y-5">
+                            <div class="flex items-start gap-3.5">
+                                <div class="w-10 h-10 rounded-xl bg-pastel-rose/25 dark:bg-pastel-rose/15 flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <div class="text-sm text-slate-500 dark:text-slate-400">تلفن</div>
+                                    <div class="font-medium" dir="ltr">۰۲۱-۸۸۷۷۶۶۵۵</div>
+                                </div>
+                            </div>
+              
+                            <div class="flex items-start gap-3.5">
+                                <div class="w-10 h-10 rounded-xl bg-pastel-lavender/25 dark:bg-pastel-lavender/15 flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <div class="text-sm text-slate-500 dark:text-slate-400">ایمیل</div>
+                                    <div class="font-medium">dr.rezaei@example.com</div>
+                                </div>
+                            </div>
+              
+                            <div class="flex items-start gap-3.5">
+                                <div class="w-10 h-10 rounded-xl bg-pastel-mint/30 dark:bg-pastel-mint/15 flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5 text-emerald-600 dark:text-pastel-mint" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <div class="text-sm text-slate-500 dark:text-slate-400">آدرس مطب</div>
+                                    <div class="font-medium">تهران، خیابان ولیعصر، بالاتر از پارک ساعی، پلاک ۲۱۴</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Form -->
+                    <div class="lg:col-span-3 reveal" style="transition-delay: 0.1s">
+                        <form id="contact-form" class="p-6 sm:p-8 rounded-2xl bg-white dark:bg-night-800 border border-slate-100 dark:border-night-600/50 shadow-soft-lg space-y-5">
+                            <div class="grid sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="name" class="block text-sm font-medium mb-1.5">نام و نام خانوادگی</label>
+                                    <input type="text" id="name" name="name" required class="w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-night-600 bg-slate-50/50 dark:bg-night-900/50 focus:outline-none focus:ring-2 focus:ring-pastel-rose/50 focus:border-pastel-rose transition-shadow text-sm" placeholder="مثلاً سارا احمدی" />
+                                </div>
+                                <div>
+                                    <label for="phone" class="block text-sm font-medium mb-1.5">شماره تماس</label>
+                                    <input type="tel" id="phone" name="phone" required class="w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-night-600 bg-slate-50/50 dark:bg-night-900/50 focus:outline-none focus:ring-2 focus:ring-pastel-rose/50 focus:border-pastel-rose transition-shadow text-sm" placeholder="۰۹۱۲xxxxxxx" dir="ltr" />
+                                </div>
+                            </div>
+              
+                            <div>
+                                <label for="subject" class="block text-sm font-medium mb-1.5">موضوع</label>
+                                <select id="subject" name="subject" class="w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-night-600 bg-slate-50/50 dark:bg-night-900/50 focus:outline-none focus:ring-2 focus:ring-pastel-rose/50 focus:border-pastel-rose transition-shadow text-sm">
+                                    <option value="consultation">درخواست مشاوره</option>
+                                    <option value="appointment">رزرو نوبت</option>
+                                    <option value="class">کلاس آمادگی زایمان</option>
+                                    <option value="other">سایر موارد</option>
+                                </select>
+                            </div>
+              
+                            <div>
+                                <label for="message" class="block text-sm font-medium mb-1.5">پیام شما</label>
+                                <textarea id="message" name="message" rows="4" class="w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-night-600 bg-slate-50/50 dark:bg-night-900/50 focus:outline-none focus:ring-2 focus:ring-pastel-rose/50 focus:border-pastel-rose transition-shadow text-sm resize-none" placeholder="توضیح کوتاهی درباره درخواست خود بنویسید..."></textarea>
+                            </div>
+              
+                            <button type="submit" class="w-full sm:w-auto px-8 py-3 rounded-xl bg-gradient-to-l from-rose-400 to-pastel-lavender text-white font-medium shadow-soft hover:shadow-soft-lg transition-all hover:-translate-y-0.5">
+                                 ارسال پیام
+                            </button>
+              
+                            <p id="form-status" class="text-sm hidden"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="border-t border-slate-200/70 dark:border-night-600/50 py-10">
+        <div class="max-w-6xl mx-auto px-5 sm:px-8">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-8 h-8 rounded-full bg-gradient-to-br from-pastel-rose to-pastel-lavender flex items-center justify-center">
+                        <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                        </svg>
+                    </div>
+                    <span class="text-sm font-medium">دکتر محدثه مهربون</span>
+                 </div>
+                <p class="text-sm text-slate-500 dark:text-slate-400 text-center">
+                     © 1405 — تمامی حقوق محفوظ است.طراحی شده با عشق و علاقه توسط Taha.
+                </p>
+            </div>
+        </div>
+  </footer>
+</body>
+<script src="assets/js/script.js"></script>
+</html>
